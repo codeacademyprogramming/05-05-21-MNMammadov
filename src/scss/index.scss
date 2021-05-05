@@ -1,4 +1,15 @@
 @import "variables";
-@import "colors";
+@import "utility";
 @import "mixins";
 @import "grid";
+@import "header";
+@import "buttons";
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+}
