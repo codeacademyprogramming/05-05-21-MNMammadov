@@ -1,0 +1,37 @@
+.button {
+    &__ghost {
+        width: 104px;
+        height: 40px;
+        cursor: pointer;
+        border: 1px solid #9DC2FF;
+        border-radius: 4px;
+        background-color: transparent;
+        color: $blue-70;
+        font-weight: 700;
+        font-size: 20px;
+        padding: 8px 12px;
+        margin-right: 16px;
+        // text-align: center;
+        transition: 0.5s all;
+        &:hover {
+            background: $white-100;
+            box-shadow: 0px 2px 4px rgba(27, 78, 163, 0.2), 0px 4px 8px rgba(41, 121, 255, 0.2);
+        }
+        &_mini {
+            width: 88px;
+            height: 32px;
+            padding: 4px 12px;
+            font-size: 14px;
+            font-weight: 400;
+            color: $blue-70;
+            text-align: end;
+            margin-right: 0;
+            position: relative;
+            img {
+                position: absolute;
+                top: 8px;
+                left: 11px;
+            }
+        }
+    }
+}

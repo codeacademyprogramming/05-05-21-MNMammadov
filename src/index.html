@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar d-flex justify-content-between">
+            <div class="d-flex align-items-center">
+                <img src="img/Logo.png" alt="Logo" class="navbar__logo">
+                <ul class="navbar__list d-flex">
+                    <li><a class="navbar__item" href="#">Sell on Shop</a></li>
+                    <li><a class="navbar__item" href="#">Register</a></li>
+                </ul>
+            </div>
+            <div class="d-flex justify-content-center align-items-center f-grow-1">
+                <form>
+                    <div class="navbar__search">
+                        <img src="icons/search.svg" class="navbar__search__icon" alt="Search">
+                        <input type="search" placeholder="Search..." class="navbar__search__input">
+                    </div>
+                </form>
+                <a href="#" class="navbar__link">Consumer Electronics</a>
+            </div>
+            <div class="d-flex justify-content-end align-items-center f-grow-1">
+                <button class="button button__ghost">Sign in</button>
+                <button class="button button__ghost">My cart</button>
+                <img src="img/Photo.png" alt="" class="navbar__profile-photo">
+            </div>
+        </nav>
+    </header>
+
+    <section class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="main__sideBar">
+                        <ul class="categories">
+                            <li>
+                                <div class="category__item">
+                                    <p class="category__title">All categories</p>
+                                    <p class="category__description">Ecommerce patterns</p>
+                                </div>
+                                <ul class="categories">
+                                    <li>
+                                        <p class="category__title">
+                                            Electronics
+                                        </p>
+                                        <ul class="categories">
+                                            <li>
+                                                <p class="category__title">Cell Phones & Smartphones</p>
+                                            </li>
+                                            <li>
+                                                <p class="category__title">Cell Phone Accessories</p>
+                                            </li>
+                                            <li>
+                                                <p class="category__title">Cell Phone Gatgets</p>
+                                            </li>
+                                            <li>
+                                                <p class="category__title">Applications</p>
+                                            </li>
+                                            <li>
+                                                <p class="category__title">Smart Watches</p>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <p class="category__title">Business & Industrial</p>
+                                    </li>
+                                    <li>
+                                        <div class="category__item">
+                                            <p class="category__title">Computers</p>
+                                            <p class="category__description">Tablets & Networking</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p class="category__title">Consumer Electroinics</p>
+                                    </li>
+                                    <li>
+                                        <p class="category__title">Home & Garden</p>
+                                    </li>
+                                    <li>
+                                        <p class="category__title">Collectibles</p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="d-flex">
+                        <p class="main__subtitle">Related</p>
+                        <div class="d-flex align-items-center">
+                            <div class="main__tag">worldwide shipping</div>
+                            <div class="main__tag">under $50</div>
+                            <div class="main__tag main__tag_orange">kitten</div>
+                            <div class="main__tag main__tag_blue-3">plastic plugs</div>
+                            <div class="main__tag">pucker shoes</div>
+                            <div class="main__tag">vintage typewriter</div>
+                        </div>
+                    </div>
+                    <div class="main__wrapper mt-16">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="main__card">
+                                    <img src="img/Card-img.png" alt="Cashbox" class="main__card-img">
+                                    <p class="main__card-descr m-0">Vintage Typewriter to post awesome stories about UI design and webdev.</p>
+                                    <p class="main__card-price m-0">$49.50</p>
+                                    <p class="main__card-add m-0">Eligible for Shipping To Mars or somewhere else</p>
+                                    <div class="main__card-famous d-flex justify-content-between align-items-center">
+                                        <div class="main__card-rating d-flex">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star-half.svg" alt="Star">
+                                            <p class="main__card-rate m-0">4.05</p>
+                                        </div>
+                                        <button class="button__ghost button__ghost_mini">
+                                            <img src="icons/heart.svg" alt="Like">
+                                            Watch
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="main__card">
+                                    <img src="img/Card-img.png" alt="Cashbox" class="main__card-img">
+                                    <p class="main__card-descr m-0">Vintage Typewriter to post awesome stories about UI design and webdev.</p>
+                                    <p class="main__card-price m-0">$49.50</p>
+                                    <p class="main__card-add m-0">Eligible for Shipping To Mars or somewhere else</p>
+                                    <div class="main__card-famous d-flex justify-content-between align-items-center">
+                                        <div class="main__card-rating d-flex">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star-half.svg" alt="Star">
+                                            <p class="main__card-rate m-0">4.05</p>
+                                        </div>
+                                        <button class="button__ghost button__ghost_mini">
+                                            <img src="icons/heart.svg" alt="Like">
+                                            Watch
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="main__card">
+                                    <img src="img/Card-img.png" alt="Cashbox" class="main__card-img">
+                                    <p class="main__card-descr m-0">Vintage Typewriter to post awesome stories about UI design and webdev.</p>
+                                    <p class="main__card-price m-0">$49.50</p>
+                                    <p class="main__card-add m-0">Eligible for Shipping To Mars or somewhere else</p>
+                                    <div class="main__card-famous d-flex justify-content-between align-items-center">
+                                        <div class="main__card-rating d-flex">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star-half.svg" alt="Star">
+                                            <p class="main__card-rate m-0">4.05</p>
+                                        </div>
+                                        <button class="button__ghost button__ghost_mini">
+                                            <img src="icons/heart.svg" alt="Like">
+                                            Watch
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="main__card">
+                                    <img src="img/Card-img.png" alt="Cashbox" class="main__card-img">
+                                    <p class="main__card-descr m-0">Vintage Typewriter to post awesome stories about UI design and webdev.</p>
+                                    <p class="main__card-price m-0">$49.50</p>
+                                    <p class="main__card-add m-0">Eligible for Shipping To Mars or somewhere else</p>
+                                    <div class="main__card-famous d-flex justify-content-between align-items-center">
+                                        <div class="main__card-rating d-flex">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star-half.svg" alt="Star">
+                                            <p class="main__card-rate m-0">4.05</p>
+                                        </div>
+                                        <button class="button__ghost button__ghost_mini">
+                                            <img src="icons/heart.svg" alt="Like">
+                                            Watch
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-16">
+                            <div class="col-3">
+                                <div class="main__card">
+                                    <img src="img/Card-img.png" alt="Cashbox" class="main__card-img">
+                                    <p class="main__card-descr m-0">Vintage Typewriter to post awesome stories about UI design and webdev.</p>
+                                    <p class="main__card-price m-0">$49.50</p>
+                                    <p class="main__card-add m-0">Eligible for Shipping To Mars or somewhere else</p>
+                                    <div class="main__card-famous d-flex justify-content-between align-items-center">
+                                        <div class="main__card-rating d-flex">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star-half.svg" alt="Star">
+                                            <p class="main__card-rate m-0">4.05</p>
+                                        </div>
+                                        <button class="button__ghost button__ghost_mini">
+                                            <img src="icons/heart.svg" alt="Like">
+                                            Watch
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="main__card">
+                                    <img src="img/Card-img.png" alt="Cashbox" class="main__card-img">
+                                    <p class="main__card-descr m-0">Vintage Typewriter to post awesome stories about UI design and webdev.</p>
+                                    <p class="main__card-price m-0">$49.50</p>
+                                    <p class="main__card-add m-0">Eligible for Shipping To Mars or somewhere else</p>
+                                    <div class="main__card-famous d-flex justify-content-between align-items-center">
+                                        <div class="main__card-rating d-flex">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star-half.svg" alt="Star">
+                                            <p class="main__card-rate m-0">4.05</p>
+                                        </div>
+                                        <button class="button__ghost button__ghost_mini">
+                                            <img src="icons/heart.svg" alt="Like">
+                                            Watch
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="main__card">
+                                    <img src="img/Card-img.png" alt="Cashbox" class="main__card-img">
+                                    <p class="main__card-descr m-0">Vintage Typewriter to post awesome stories about UI design and webdev.</p>
+                                    <p class="main__card-price m-0">$49.50</p>
+                                    <p class="main__card-add m-0">Eligible for Shipping To Mars or somewhere else</p>
+                                    <div class="main__card-famous d-flex justify-content-between align-items-center">
+                                        <div class="main__card-rating d-flex">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star-half.svg" alt="Star">
+                                            <p class="main__card-rate m-0">4.05</p>
+                                        </div>
+                                        <button class="button__ghost button__ghost_mini">
+                                            <img src="icons/heart.svg" alt="Like">
+                                            Watch
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="main__card">
+                                    <img src="img/Card-img.png" alt="Cashbox" class="main__card-img">
+                                    <p class="main__card-descr m-0">Vintage Typewriter to post awesome stories about UI design and webdev.</p>
+                                    <p class="main__card-price m-0">$49.50</p>
+                                    <p class="main__card-add m-0">Eligible for Shipping To Mars or somewhere else</p>
+                                    <div class="main__card-famous d-flex justify-content-between align-items-center">
+                                        <div class="main__card-rating d-flex">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star-half.svg" alt="Star">
+                                            <p class="main__card-rate m-0">4.05</p>
+                                        </div>
+                                        <button class="button__ghost button__ghost_mini">
+                                            <img src="icons/heart.svg" alt="Like">
+                                            Watch
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-24">
+                            <div class="col-3">
+                                <div class="main__card">
+                                    <img src="img/Card-img.png" alt="Cashbox" class="main__card-img">
+                                    <p class="main__card-descr m-0">Vintage Typewriter to post awesome stories about UI design and webdev.</p>
+                                    <p class="main__card-price m-0">$49.50</p>
+                                    <p class="main__card-add m-0">Eligible for Shipping To Mars or somewhere else</p>
+                                    <div class="main__card-famous d-flex justify-content-between align-items-center">
+                                        <div class="main__card-rating d-flex">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star-half.svg" alt="Star">
+                                            <p class="main__card-rate m-0">4.05</p>
+                                        </div>
+                                        <button class="button__ghost button__ghost_mini">
+                                            <img src="icons/heart.svg" alt="Like">
+                                            Watch
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="main__card">
+                                    <img src="img/Card-img.png" alt="Cashbox" class="main__card-img">
+                                    <p class="main__card-descr m-0">Vintage Typewriter to post awesome stories about UI design and webdev.</p>
+                                    <p class="main__card-price m-0">$49.50</p>
+                                    <p class="main__card-add m-0">Eligible for Shipping To Mars or somewhere else</p>
+                                    <div class="main__card-famous d-flex justify-content-between align-items-center">
+                                        <div class="main__card-rating d-flex">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star-half.svg" alt="Star">
+                                            <p class="main__card-rate m-0">4.05</p>
+                                        </div>
+                                        <button class="button__ghost button__ghost_mini">
+                                            <img src="icons/heart.svg" alt="Like">
+                                            Watch
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="main__card">
+                                    <img src="img/Card-img.png" alt="Cashbox" class="main__card-img">
+                                    <p class="main__card-descr m-0">Vintage Typewriter to post awesome stories about UI design and webdev.</p>
+                                    <p class="main__card-price m-0">$49.50</p>
+                                    <p class="main__card-add m-0">Eligible for Shipping To Mars or somewhere else</p>
+                                    <div class="main__card-famous d-flex justify-content-between align-items-center">
+                                        <div class="main__card-rating d-flex">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star-half.svg" alt="Star">
+                                            <p class="main__card-rate m-0">4.05</p>
+                                        </div>
+                                        <button class="button__ghost button__ghost_mini">
+                                            <img src="icons/heart.svg" alt="Like">
+                                            Watch
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="main__card">
+                                    <img src="img/Card-img.png" alt="Cashbox" class="main__card-img">
+                                    <p class="main__card-descr m-0">Vintage Typewriter to post awesome stories about UI design and webdev.</p>
+                                    <p class="main__card-price m-0">$49.50</p>
+                                    <p class="main__card-add m-0">Eligible for Shipping To Mars or somewhere else</p>
+                                    <div class="main__card-famous d-flex justify-content-between align-items-center">
+                                        <div class="main__card-rating d-flex">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star.svg" alt="Star">
+                                            <img src="icons/star-half.svg" alt="Star">
+                                            <p class="main__card-rate m-0">4.05</p>
+                                        </div>
+                                        <button class="button__ghost button__ghost_mini">
+                                            <img src="icons/heart.svg" alt="Like">
+                                            Watch
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-9">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="footer__card">
+                                <img src="icons/lightbulb-on-outline.svg" alt="Platte" class="footer__card-img">
+                                <p class="footer__card-title m-0">Clear & Usable user flows</p>
+                                <p class="footer__card-subtitle m-0">Let’s boost yout marketplace</p>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="footer__card">
+                                <img src="icons/auto-fix.svg" alt="Platte" class="footer__card-img">
+                                <p class="footer__card-title m-0">Clear & Usable user flows</p>
+                                <p class="footer__card-subtitle m-0">Let’s boost yout marketplace</p>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="footer__card">
+                                <img src="icons/palette.svg" alt="Platte" class="footer__card-img">
+                                <p class="footer__card-title m-0">Clear & Usable user flows</p>
+                                <p class="footer__card-subtitle m-0">Let’s boost yout marketplace</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
