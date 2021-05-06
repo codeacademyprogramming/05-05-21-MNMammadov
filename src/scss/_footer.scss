@@ -1,0 +1,14 @@
+.footer {
+    margin-top: 40px;
+    margin-bottom: 96px;
+    margin-right: 0;
+    &__card {
+        background: #EDEDF0;
+        border-radius: 8px;
+        padding: 8px 16px 24px 16px;
+        &-img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}
