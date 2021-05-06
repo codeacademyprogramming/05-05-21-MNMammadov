@@ -23,7 +23,45 @@
     }
     &__wrapper {
         @include border_box_shadow;
-        height: 100px;
+    }
+    &__card {
+        padding: 16px;
+        transition: 0.5s all;
+        &:hover {
+            @include border_box_shadow;
+        }
+        &-img {
+            width: 226px;
+        }
+        &-descr {
+            font-weight: 400;
+            font-size: 16px;
+            color: $gray-100;
+            letter-spacing: 0.0275em;
+            margin-top: 12px;
+        }
+        &-price {
+            font-weight: 700;
+            font-size: 24px;
+            color: $dark-color;
+            margin-top: 8px;
+        }
+        &-add {
+            font-weight: 400;
+            font-size: 14px;
+            color: $gray-50;
+            margin-top: 8px;
+        }
+        &-famous {
+            margin-top: 9px;
+        }
+        &-rate {
+            font-weight: 500;
+            font-size: 14px;
+            letter-spacing: 0.1px;
+            color: $gray-80;
+            margin-left: 8px;
+        }
     }
 }
 
