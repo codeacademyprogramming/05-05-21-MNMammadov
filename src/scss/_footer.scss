@@ -7,8 +7,26 @@
         border-radius: 8px;
         padding: 8px 16px 24px 16px;
         &-img {
+            width: 80px;
+            height: 80px;
             display: block;
             margin: 0 auto;
+        }
+        &-title {
+            font-weight: 700;
+            font-size: 20px;
+            text-align: center;
+            letter-spacing: 0.0075em;
+            color: $dark-color;
+            margin-top: 20px;
+        }
+        &-subtitle {
+            font-weight: 400;
+            font-size: 14px;
+            text-align: center;
+            letter-spacing: 0.018em;
+            color: $gray-60;
+            margin-top: 10px;
         }
     }
 }
